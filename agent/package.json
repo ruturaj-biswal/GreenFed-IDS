@@ -1,0 +1,18 @@
+
+{
+  "name": "greenfed-monitor-agent",
+  "version": "1.0.0",
+  "description": "Independent GreenFed-IDS resource monitoring agent",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "systeminformation": "^5.27.0"
+  }
+}
